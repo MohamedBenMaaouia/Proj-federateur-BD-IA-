@@ -1,0 +1,28 @@
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local vector store / cache data (Docker volumes live outside the repo)
+qdrant_storage/
+data/qdrant/
+data/processed/
+
+# Evaluation outputs
+eval/results/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

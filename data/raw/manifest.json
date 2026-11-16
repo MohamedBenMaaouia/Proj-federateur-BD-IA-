@@ -1,0 +1,38 @@
+{
+  "corpus": "Vehicle diagnostics & maintenance knowledge base",
+  "valid": true,
+  "files": [
+    {
+      "file": "data/raw/manuals/2017-F-150-Owners-Manual-English.pdf",
+      "type": "pdf",
+      "doc_type": "manual",
+      "language": "en",
+      "pages": 599,
+      "size_bytes": 7691577,
+      "sha256": "f7239bcd9b94046a7d8847195cc3d5e5c769bd031a74e355e217916f61d550a4"
+    },
+    {
+      "file": "data/raw/manuals/2017-F-150-Owners-Manual-French.pdf",
+      "type": "pdf",
+      "doc_type": "manual",
+      "language": "fr",
+      "pages": 683,
+      "size_bytes": 8927196,
+      "sha256": "6c729c6bf8c41d0342b040afa148356370dd10e224fc3e5c950cf1964a5698ff"
+    },
+    {
+      "file": "data/raw/obd_codes.json",
+      "type": "json",
+      "doc_type": "obd_code",
+      "language": "en",
+      "records": 469,
+      "size_bytes": 51590,
+      "sha256": "ee03a40796de7a5bcb5349c5e4240edda65f39c00c2453dbf44e09e02838f073"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "pdf_pages": 1282,
+    "obd_codes": 469
+  }
+}

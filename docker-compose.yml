@@ -1,0 +1,44 @@
+# Local infrastructure for the Vehicle Diagnostics & Maintenance Assistant.
+#
+#   docker compose up -d                   # vector database (Qdrant)
+#   docker compose --profile cache up -d   # + Redis semantic cache
+#   docker compose down                    # stop (data is kept in volumes)
+#
+# Ports are bound to 127.0.0.1 only: nothing is exposed outside the machine.
+
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.20.0
+    container_name: vda-qdrant
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6333:6333"   # REST API + web dashboard (/dashboard)
+      - "127.0.0.1:6334:6334"   # gRPC
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    environment:
+      QDRANT__TELEMETRY_DISABLED: "true"
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c ':> /dev/tcp/127.0.0.1/6333' || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  redis:
+    image: redis/redis-stack-server:7.4.0-v3   # Redis + vector search, for the semantic cache
+    container_name: vda-redis
+    profiles: ["cache"]
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  qdrant_storage:
+  redis_data:

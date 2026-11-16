@@ -1,0 +1,1896 @@
+{
+  "source": "SAE J2012 generic powertrain diagnostic trouble codes (OBD-II)",
+  "count": 469,
+  "codes": [
+    {
+      "code": "P0100",
+      "description": "Mass or Volume Air Flow Circuit Malfunction"
+    },
+    {
+      "code": "P0101",
+      "description": "Mass or Volume Air Flow Circuit Range/Performance Problem"
+    },
+    {
+      "code": "P0102",
+      "description": "Mass or Volume Air Flow Circuit Low Input"
+    },
+    {
+      "code": "P0103",
+      "description": "Mass or Volume Air Flow Circuit High Input"
+    },
+    {
+      "code": "P0104",
+      "description": "Mass or Volume Air Flow Circuit Intermittent"
+    },
+    {
+      "code": "P0105",
+      "description": "Manifold Absolute Pressure/Barometric Pressure Circuit Malfunction"
+    },
+    {
+      "code": "P0106",
+      "description": "Manifold Absolute Pressure/Barometric Pressure Circuit Range/Performance Problem"
+    },
+    {
+      "code": "P0107",
+      "description": "Manifold Absolute Pressure/Barometric Pressure Circuit Low Input"
+    },
+    {
+      "code": "P0108",
+      "description": "Manifold Absolute Pressure/Barometric Pressure Circuit High Input"
+    },
+    {
+      "code": "P0109",
+      "description": "Manifold Absolute Pressure/Barometric Pressure Circuit Intermittent"
+    },
+    {
+      "code": "P0110",
+      "description": "Intake Air Temperature Circuit Malfunction"
+    },
+    {
+      "code": "P0111",
+      "description": "Intake Air Temperature Circuit Range/Performance Problem"
+    },
+    {
+      "code": "P0112",
+      "description": "Intake Air Temperature Circuit Low Input"
+    },
+    {
+      "code": "P0113",
+      "description": "Intake Air Temperature Circuit High Input"
+    },
+    {
+      "code": "P0114",
+      "description": "Intake Air Temperature Circuit Intermittent"
+    },
+    {
+      "code": "P0115",
+      "description": "Engine Coolant Temperature Circuit Malfunction"
+    },
+    {
+      "code": "P0116",
+      "description": "Engine Coolant Temperature Circuit Range/Performance Problem"
+    },
+    {
+      "code": "P0117",
+      "description": "Engine Coolant Temperature Circuit Low Input"
+    },
+    {
+      "code": "P0118",
+      "description": "Engine Coolant Temperature Circuit High Input"
+    },
+    {
+      "code": "P0119",
+      "description": "Engine Coolant Temperature Circuit Intermittent"
+    },
+    {
+      "code": "P0120",
+      "description": "Throttle/Petal Position Sensor/Switch A Circuit Malfunction"
+    },
+    {
+      "code": "P0121",
+      "description": "Throttle/Petal Position Sensor/Switch A Circuit Range/Performance Problem"
+    },
+    {
+      "code": "P0122",
+      "description": "Throttle/Petal Position Sensor/Switch A Circuit Low Input"
+    },
+    {
+      "code": "P0123",
+      "description": "Throttle/Petal Position Sensor/Switch A Circuit High Input"
+    },
+    {
+      "code": "P0124",
+      "description": "Throttle/Petal Position Sensor/Switch A Circuit Intermittent"
+    },
+    {
+      "code": "P0125",
+      "description": "Insufficient Coolant Temperature for Closed Loop Fuel Control"
+    },
+    {
+      "code": "P0126",
+      "description": "Insufficient Coolant Temperature for Stable Operation"
+    },
+    {
+      "code": "P0130",
+      "description": "02 Sensor Circuit Malfunction (Bank I Sensor 1)"
+    },
+    {
+      "code": "P0131",
+      "description": "02 Sensor Circuit Low Voltage (Bank I Sensor I)"
+    },
+    {
+      "code": "P0132",
+      "description": "02 Sensor Circuit High Voltage (Bank I Sensor 1)"
+    },
+    {
+      "code": "P0133",
+      "description": "02 Sensor Circuit Slow Response (Bank 1 Sensor 1)"
+    },
+    {
+      "code": "P0134",
+      "description": "02 Sensor Circuit No Activity Detected (Bank I Sensor 1)"
+    },
+    {
+      "code": "P0135",
+      "description": "02 Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)"
+    },
+    {
+      "code": "P0136",
+      "description": "02 Sensor Circuit Malfunction (Bank I Sensor 2)"
+    },
+    {
+      "code": "P0137",
+      "description": "02 Sensor Circuit Low Voltage (Bank I Sensor 2)"
+    },
+    {
+      "code": "P0138",
+      "description": "02 Sensor Circuit High Voltage (Bank I Sensor 2)"
+    },
+    {
+      "code": "P0139",
+      "description": "02 Sensor Circuit Slow Response (Bank 1 Sensor 2)"
+    },
+    {
+      "code": "P0140",
+      "description": "02 Sensor Circuit No Activity Detected (Bank 1 Sensor 2)"
+    },
+    {
+      "code": "P0141",
+      "description": "02 Sensor Heater Circuit Malfunction (Bank 1 Sensor 2)"
+    },
+    {
+      "code": "P0142",
+      "description": "02 Sensor Circuit Malfunction (Bank I Sensor 3)"
+    },
+    {
+      "code": "P0143",
+      "description": "02 Sensor Circuit Low Voltage (Bank I Sensor 3)"
+    },
+    {
+      "code": "P0144",
+      "description": "02 Sensor Circuit High Voltage (Bank I Sensor 3)"
+    },
+    {
+      "code": "P0145",
+      "description": "02 Sensor Circuit Slow Response (Bank 1 Sensor 3)"
+    },
+    {
+      "code": "P0146",
+      "description": "02 Sensor Circuit No Activity Detected (Bank I Sensor 3)"
+    },
+    {
+      "code": "P0147",
+      "description": "02 Sensor Heater Circuit Malfunction (Bank I Sensor 3)"
+    },
+    {
+      "code": "P0150",
+      "description": "02 Sensor Circuit Malfunction (Bank 2 Sensor I)"
+    },
+    {
+      "code": "P0151",
+      "description": "02 Sensor Circuit Low Voltage (Bank 2 Sensor I)"
+    },
+    {
+      "code": "P0152",
+      "description": "02 Sensor Circuit High Voltage (Bank 2 Sensor 1)"
+    },
+    {
+      "code": "P0153",
+      "description": "02 Sensor Circuit Slow Response (Bank 2 Sensor 1)"
+    },
+    {
+      "code": "P0154",
+      "description": "02 Sensor Circuit No Activity Detected (Bank 2 Sensor 1)"
+    },
+    {
+      "code": "P0155",
+      "description": "02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 1)"
+    },
+    {
+      "code": "P0156",
+      "description": "02 Sensor Circuit Malfunction (Bank 2 Sensor 2)"
+    },
+    {
+      "code": "P0157",
+      "description": "02 Sensor Circuit Low Voltage (Bank 2 Sensor 2)"
+    },
+    {
+      "code": "P0158",
+      "description": "02 Sensor Circuit High Voltage (Bank 2 Sensor 2)"
+    },
+    {
+      "code": "P0159",
+      "description": "02 Sensor Circuit Slow Response (Bank 2 Sensor 2)"
+    },
+    {
+      "code": "P0160",
+      "description": "02 Sensor Circuit No Activity Detected (Bank 2 Sensor 2)"
+    },
+    {
+      "code": "P0161",
+      "description": "02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 2)"
+    },
+    {
+      "code": "P0162",
+      "description": "02 Sensor Circuit Malfunction (Bank 2 Sensor 3)"
+    },
+    {
+      "code": "P0163",
+      "description": "02 Sensor Circuit Low Voltage (Bank 2 Sensor 3)"
+    },
+    {
+      "code": "P0164",
+      "description": "02 Sensor Circuit High Voltage (Bank 2 Sensor 3)"
+    },
+    {
+      "code": "P0165",
+      "description": "02 Sensor Circuit Slow Response (Bank 2 Sensor 3)"
+    },
+    {
+      "code": "P0166",
+      "description": "02 Sensor Circuit No Activity Detected (Bank 2 Sensor 3)"
+    },
+    {
+      "code": "P0167",
+      "description": "02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 3)"
+    },
+    {
+      "code": "P0170",
+      "description": "Fuel Trim Malfunction (Bank 1)"
+    },
+    {
+      "code": "P0171",
+      "description": "System too Lean (Bank 1)"
+    },
+    {
+      "code": "P0172",
+      "description": "System too Rich (Bank 1)"
+    },
+    {
+      "code": "P0173",
+      "description": "Fuel Trim Malfunction (Bank 2)"
+    },
+    {
+      "code": "P0174",
+      "description": "System too Lean (Bank 2)P0175 System too Rich (Bank 2)"
+    },
+    {
+      "code": "P0176",
+      "description": "Fuel Composition Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0177",
+      "description": "Fuel Composition Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0178",
+      "description": "Fuel Composition Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0179",
+      "description": "Fuel Composition Sensor Circuit High Input"
+    },
+    {
+      "code": "P0180",
+      "description": "Fuel Temperature Sensor A Circuit Malfunction"
+    },
+    {
+      "code": "P0181",
+      "description": "Fuel Temperature Sensor A Circuit Range/Performance"
+    },
+    {
+      "code": "P0182",
+      "description": "Fuel Temperature Sensor A Circuit Low Input"
+    },
+    {
+      "code": "P0183",
+      "description": "Fuel Temperature Sensor A Circuit High Input"
+    },
+    {
+      "code": "P0184",
+      "description": "Fuel Temperature Sensor A Circuit Intermittent"
+    },
+    {
+      "code": "P0185",
+      "description": "Fuel Temperature Sensor B Circuit Malfunction"
+    },
+    {
+      "code": "P0186",
+      "description": "Fuel Temperature Sensor B Circuit Range/Performance"
+    },
+    {
+      "code": "P0187",
+      "description": "Fuel Temperature Sensor B Circuit Low Input"
+    },
+    {
+      "code": "P0188",
+      "description": "Fuel Temperature Sensor B Circuit High Input"
+    },
+    {
+      "code": "P0189",
+      "description": "Fuel Temperature Sensor B Circuit Intermittent"
+    },
+    {
+      "code": "P0190",
+      "description": "Fuel Rail Pressure Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0191",
+      "description": "Fuel Rail Pressure Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0192",
+      "description": "Fuel Rail Pressure Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0193",
+      "description": "Fuel Rail Pressure Sensor Circuit High Input"
+    },
+    {
+      "code": "P0194",
+      "description": "Fuel Rail Pressure Sensor Circuit Intermittent"
+    },
+    {
+      "code": "P0195",
+      "description": "Engine Oil Temperature Sensor Malfunction"
+    },
+    {
+      "code": "P0196",
+      "description": "Engine Oil Temperature Sensor Range/Performance"
+    },
+    {
+      "code": "P0197",
+      "description": "Engine Oil Temperature Sensor Low"
+    },
+    {
+      "code": "P0198",
+      "description": "Engine Oil Temperature Sensor High"
+    },
+    {
+      "code": "P0199",
+      "description": "Engine Oil Temperature Sensor Intermittent"
+    },
+    {
+      "code": "P0200",
+      "description": "Injector Circuit Malfunction"
+    },
+    {
+      "code": "P0201",
+      "description": "Injector Circuit Malfunction - Cylinder 1"
+    },
+    {
+      "code": "P0202",
+      "description": "Injector Circuit Malfunction - Cylinder 2"
+    },
+    {
+      "code": "P0203",
+      "description": "Injector Circuit Malfunction - Cylinder 3"
+    },
+    {
+      "code": "P0204",
+      "description": "Injector Circuit Malfunction - Cylinder 4"
+    },
+    {
+      "code": "P0205",
+      "description": "Injector Circuit Malfunction - Cylinder 5"
+    },
+    {
+      "code": "P0206",
+      "description": "Injector Circuit Malfunction - Cylinder 6"
+    },
+    {
+      "code": "P0207",
+      "description": "Injector Circuit Malfunction - Cylinder 7"
+    },
+    {
+      "code": "P0208",
+      "description": "Injector Circuit Malfunction - Cylinder 8"
+    },
+    {
+      "code": "P0209",
+      "description": "Injector Circuit Malfunction - Cylinder 9"
+    },
+    {
+      "code": "P0210",
+      "description": "Injector Circuit Malfunction - Cylinder 10"
+    },
+    {
+      "code": "P0211",
+      "description": "Injector Circuit Malfunction - Cylinder 11"
+    },
+    {
+      "code": "P0212",
+      "description": "Injector Circuit Malfunction - Cylinder 12"
+    },
+    {
+      "code": "P0213",
+      "description": "Cold Start Injector 1 Malfunction"
+    },
+    {
+      "code": "P0214",
+      "description": "Cold Start Injector 2 Malfunction"
+    },
+    {
+      "code": "P0215",
+      "description": "Engine Shutoff Solenoid Malfunction"
+    },
+    {
+      "code": "P0216",
+      "description": "Injection Timing Control Circuit Malfunction"
+    },
+    {
+      "code": "P0217",
+      "description": "Engine Overtemp Condition"
+    },
+    {
+      "code": "P0218",
+      "description": "Transmission Over Temperature Condition"
+    },
+    {
+      "code": "P0219",
+      "description": "Engine Overspeed Condition"
+    },
+    {
+      "code": "P0220",
+      "description": "Throttle/Petal Position Sensor/Switch B Circuit Malfunction"
+    },
+    {
+      "code": "P0221",
+      "description": "Throttle/Petal Position Sensor/Switch B Circuit Range/Performance Problem"
+    },
+    {
+      "code": "P0222",
+      "description": "Throttle/Petal Position Sensor/Switch B Circuit Low Input"
+    },
+    {
+      "code": "P0223",
+      "description": "Throttle/Petal Position Sensor/Switch B Circuit High Input"
+    },
+    {
+      "code": "P0224",
+      "description": "Throttle/Petal Position Sensor/Switch B Circuit Intermittent"
+    },
+    {
+      "code": "P0225",
+      "description": "Throttle/Petal Position Sensor/Switch C Circuit Malfunction"
+    },
+    {
+      "code": "P0226",
+      "description": "Throttle/Petal Position Sensor/Switch C Circuit Range/Performance Problem"
+    },
+    {
+      "code": "P0227",
+      "description": "Throttle/Petal Position Sensor/Switch C Circuit Low Input"
+    },
+    {
+      "code": "P0228",
+      "description": "Throttle/Petal Position Sensor/Switch C Circuit High Input"
+    },
+    {
+      "code": "P0229",
+      "description": "Throttle/Petal Position Sensor/Switch C Circuit Intermittent"
+    },
+    {
+      "code": "P0230",
+      "description": "Fuel Pump Primary Circuit Malfunction"
+    },
+    {
+      "code": "P0231",
+      "description": "Fuel Pump Secondary Circuit Low"
+    },
+    {
+      "code": "P0232",
+      "description": "Fuel Pump Secondary Circuit High"
+    },
+    {
+      "code": "P0233",
+      "description": "Fuel Pump Secondary Circuit Intermittent"
+    },
+    {
+      "code": "P0234",
+      "description": "Engine Overboost Condition"
+    },
+    {
+      "code": "P0235",
+      "description": "Turbocharger Boost Sensor A Circuit Malfunction"
+    },
+    {
+      "code": "P0236",
+      "description": "Turbocharger Boost Sensor A Circuit Range/Performance"
+    },
+    {
+      "code": "P0237",
+      "description": "Turbocharger Boost Sensor A Circuit Low"
+    },
+    {
+      "code": "P0238",
+      "description": "Turbocharger Boost Sensor A Circuit High"
+    },
+    {
+      "code": "P0239",
+      "description": "Turbocharger Boost Sensor B Malfunction"
+    },
+    {
+      "code": "P0240",
+      "description": "Turbocharger Boost Sensor B Circuit Range/Performance"
+    },
+    {
+      "code": "P0241",
+      "description": "Turbocharger Boost Sensor B Circuit Low"
+    },
+    {
+      "code": "P0242",
+      "description": "Turbocharger Boost Sensor B Circuit High"
+    },
+    {
+      "code": "P0243",
+      "description": "Turbocharger Wastegate Solenoid A Malfunction"
+    },
+    {
+      "code": "P0244",
+      "description": "Turbocharger Wastegate Solenoid A Range/Performance"
+    },
+    {
+      "code": "P0245",
+      "description": "Turbocharger Wastegate Solenoid A Low"
+    },
+    {
+      "code": "P0246",
+      "description": "Turbocharger Wastegate Solenoid A High"
+    },
+    {
+      "code": "P0247",
+      "description": "Turbocharger Wastegate Solenoid B Malfunction"
+    },
+    {
+      "code": "P0248",
+      "description": "Turbocharger Wastegate Solenoid B Range/Performance"
+    },
+    {
+      "code": "P0249",
+      "description": "Turbocharger Wastegate Solenoid B Low"
+    },
+    {
+      "code": "P0250",
+      "description": "Turbocharger Wastegate Solenoid B High"
+    },
+    {
+      "code": "P0251",
+      "description": "Injection Pump Fuel Metering Control \"A\" Malfunction (Cam/Rotor/Injector)"
+    },
+    {
+      "code": "P0252",
+      "description": "Injection Pump Fuel Metering Control \"A\" Range/Performance (Cam/Rotor/Injector)"
+    },
+    {
+      "code": "P0253",
+      "description": "Injection Pump Fuel Metering Control \"A\" Low (Cam/Rotor/Injector)"
+    },
+    {
+      "code": "P0254",
+      "description": "Injection Pump Fuel Metering Control \"A\" High (Cam/Rotor/Injector)"
+    },
+    {
+      "code": "P0255",
+      "description": "Injection Pump Fuel Metering Control \"A\" Intermittent (Cam/Rotor/Injector)"
+    },
+    {
+      "code": "P0256",
+      "description": "Injection Pump Fuel Metering Control \"B\" Malfunction (Cam/Rotor/Injector)"
+    },
+    {
+      "code": "P0257",
+      "description": "Injection Pump Fuel Metering Control \"B\" Range/Performance Injector)"
+    },
+    {
+      "code": "P0258",
+      "description": "Injection Pump Fuel Metering Control \"B\" Low (Cam/R"
+    },
+    {
+      "code": "P0259",
+      "description": "Injection Pump Fuel Metering Control \"B\" High (Cam/R"
+    },
+    {
+      "code": "P0260",
+      "description": "Injection Pump Fuel Metering Control \"B\" Intermittent Injector)"
+    },
+    {
+      "code": "P0261",
+      "description": "Cylinder I Injector Circuit Low"
+    },
+    {
+      "code": "P0262",
+      "description": "Cylinder I Injector Circuit High"
+    },
+    {
+      "code": "P0263",
+      "description": "Cylinder I Contribution/Balance Fault"
+    },
+    {
+      "code": "P0264",
+      "description": "Cylinder 2 Injector Circuit Low"
+    },
+    {
+      "code": "P0265",
+      "description": "Cylinder 2 Injector Circuit High"
+    },
+    {
+      "code": "P0266",
+      "description": "Cylinder 2 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0267",
+      "description": "Cylinder 3 Injector Circuit Low"
+    },
+    {
+      "code": "P0268",
+      "description": "Cylinder 3 Injector Circuit High"
+    },
+    {
+      "code": "P0269",
+      "description": "Cylinder 3 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0270",
+      "description": "Cylinder 4 Injector Circuit Low"
+    },
+    {
+      "code": "P0271",
+      "description": "Cylinder 4 Injector Circuit High"
+    },
+    {
+      "code": "P0272",
+      "description": "Cylinder 4 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0273",
+      "description": "Cylinder 5 Injector Circuit Low"
+    },
+    {
+      "code": "P0274",
+      "description": "Cylinder 5 Injector Circuit High"
+    },
+    {
+      "code": "P0275",
+      "description": "Cylinder S Contribution/Balance Fault"
+    },
+    {
+      "code": "P0276",
+      "description": "Cylinder 6 Injector Circuit Low"
+    },
+    {
+      "code": "P0277",
+      "description": "Cylinder 6 Injector Circuit High"
+    },
+    {
+      "code": "P0278",
+      "description": "Cylinder 6 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0279",
+      "description": "Cylinder 7 Injector Circuit Low"
+    },
+    {
+      "code": "P0280",
+      "description": "Cylinder 7 Injector Circuit High"
+    },
+    {
+      "code": "P0281",
+      "description": "Cylinder 7 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0282",
+      "description": "Cylinder 8 Injector Circuit Low"
+    },
+    {
+      "code": "P0283",
+      "description": "Cylinder 8 Injector Circuit High"
+    },
+    {
+      "code": "P0284",
+      "description": "Cylinder 8 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0285",
+      "description": "Cylinder 9 Injector Circuit Low"
+    },
+    {
+      "code": "P0286",
+      "description": "Cylinder 9 Injector Circuit High"
+    },
+    {
+      "code": "P0287",
+      "description": "Cylinder 9 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0288",
+      "description": "Cylinder 10 Injector Circuit Low"
+    },
+    {
+      "code": "P0289",
+      "description": "Cylinder 10 Injector Circuit High"
+    },
+    {
+      "code": "P0290",
+      "description": "Cylinder 10 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0291",
+      "description": "Cylinder 11 Injector Circuit Low"
+    },
+    {
+      "code": "P0292",
+      "description": "Cylinder 11 Injector Circuit High"
+    },
+    {
+      "code": "P0293",
+      "description": "Cylinder 11 Contribution/Balance Fault"
+    },
+    {
+      "code": "P0294",
+      "description": "Cylinder 12 Injector Circuit Low"
+    },
+    {
+      "code": "P0295",
+      "description": "Cylinder 12 Injector Circuit High"
+    },
+    {
+      "code": "P0296",
+      "description": "Cylinder 12 Contribution/Range Fault"
+    },
+    {
+      "code": "P0300",
+      "description": "Random/Multiple Cylinder Misfire Detected"
+    },
+    {
+      "code": "P0301",
+      "description": "Cylinder 1 Misfire Detected"
+    },
+    {
+      "code": "P0302",
+      "description": "Cylinder 2 Misfire Detected"
+    },
+    {
+      "code": "P0303",
+      "description": "Cylinder 3 Misfire Detected"
+    },
+    {
+      "code": "P0304",
+      "description": "Cylinder 4 Misfire Detected"
+    },
+    {
+      "code": "P0305",
+      "description": "Cylinder 5 Misfire Detected"
+    },
+    {
+      "code": "P0306",
+      "description": "Cylinder 6 Misfire Detected"
+    },
+    {
+      "code": "P0307",
+      "description": "Cylinder 7 Misfire Detected"
+    },
+    {
+      "code": "P0308",
+      "description": "Cylinder 8 Misfire Detected"
+    },
+    {
+      "code": "P0309",
+      "description": "Cylinder 9 Misfire Detected"
+    },
+    {
+      "code": "P0311",
+      "description": "Cylinder 11 Misfire Detected"
+    },
+    {
+      "code": "P0312",
+      "description": "Cylinder 12 Misfire Detected"
+    },
+    {
+      "code": "P0320",
+      "description": "Ignition/Distributor Engine Speed Input Circuit Malfunction"
+    },
+    {
+      "code": "P0321",
+      "description": "Ignition/Distributor Engine Speed Input Circuit Range/Performance"
+    },
+    {
+      "code": "P0322",
+      "description": "Ignition/Distributor Engine Speed Input Circuit No Signal"
+    },
+    {
+      "code": "P0323",
+      "description": "Ignition/Distributor Engine Speed Input Circuit Intermittent"
+    },
+    {
+      "code": "P0325",
+      "description": "Knock Sensor 1 Circuit Malfunction (Bank I or Single Sensor)"
+    },
+    {
+      "code": "P0326",
+      "description": "Knock Sensor 1 Circuit Range/Performance (Bank 1 or Single Sensor)"
+    },
+    {
+      "code": "P0327",
+      "description": "Knock Sensor 1 Circuit Low Input (Bank I or Single Sensor)"
+    },
+    {
+      "code": "P0328",
+      "description": "Knock Sensor 1 Circuit High Input (Bank I or Single Sensor)"
+    },
+    {
+      "code": "P0329",
+      "description": "Knock Sensor 1 Circuit Intermittent (Bank 1 or Single Sensor)"
+    },
+    {
+      "code": "P0330",
+      "description": "Knock Sensor 2 Circuit Malfunction (Bank 2)"
+    },
+    {
+      "code": "P0331",
+      "description": "Knock Sensor 2 Circuit Range/Performance (Bank 2)"
+    },
+    {
+      "code": "P0332",
+      "description": "Knock Sensor 2 Circuit Low Input (Bank 2)"
+    },
+    {
+      "code": "P0333",
+      "description": "Knock Sensor 2 Circuit High Input (Bank 2)"
+    },
+    {
+      "code": "P0334",
+      "description": "Knock Sensor 2 Circuit Intermittent (Bank 2)"
+    },
+    {
+      "code": "P0335",
+      "description": "Crankshaft Position Sensor A Circuit Malfunction"
+    },
+    {
+      "code": "P0336",
+      "description": "Crankshaft Position Sensor A Circuit Range/Performance"
+    },
+    {
+      "code": "P0337",
+      "description": "Crankshaft Position Sensor A Circuit Low Input"
+    },
+    {
+      "code": "P0338",
+      "description": "Crankshaft Position Sensor A Circuit High Input"
+    },
+    {
+      "code": "P0339",
+      "description": "Crankshaft Position Sensor A Circuit Intermittent"
+    },
+    {
+      "code": "P0340",
+      "description": "Camshaft Position Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0341",
+      "description": "Camshaft Position Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0342",
+      "description": "Camshaft Position Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0343",
+      "description": "Camshaft Position Sensor Circuit High Input"
+    },
+    {
+      "code": "P0344",
+      "description": "Camshaft Position Sensor Circuit Intermittent"
+    },
+    {
+      "code": "P0350",
+      "description": "Ignition Coil Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0351",
+      "description": "Ignition Coil A Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0352",
+      "description": "Ignition Coil B Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0353",
+      "description": "Ignition Coil C Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0354",
+      "description": "Ignition Coil D Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0355",
+      "description": "Ignition Coil E Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0356",
+      "description": "Ignition Coil F Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0357",
+      "description": "Ignition Coil G Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0358",
+      "description": "Ignition Coil H Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0359",
+      "description": "Ignition Coil I Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0360",
+      "description": "Ignition Coil J Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0361",
+      "description": "Ignition Coil K Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0362",
+      "description": "Ignition Coil L Primary/Secondary Circuit Malfunction"
+    },
+    {
+      "code": "P0370",
+      "description": "Timing Reference High Resolution Signal A Malfunction"
+    },
+    {
+      "code": "P0371",
+      "description": "Timing Reference High Resolution Signal A Too Many Pulses"
+    },
+    {
+      "code": "P0372",
+      "description": "Timing Reference High Resolution Signal A Too Few Pulses"
+    },
+    {
+      "code": "P0373",
+      "description": "Timing Reference High Resolution Signal A Intermittent/Erratic Pulses"
+    },
+    {
+      "code": "P0374",
+      "description": "Timing Reference High Resolution Signal A No Pulses"
+    },
+    {
+      "code": "P0375",
+      "description": "Timing Reference High Resolution Signal B Malfunction"
+    },
+    {
+      "code": "P0376",
+      "description": "Timing Reference High Resolution Signal B Too Many Pulses"
+    },
+    {
+      "code": "P0377",
+      "description": "Timing Reference High Resolution Signal B Too Few Pulses"
+    },
+    {
+      "code": "P0378",
+      "description": "Timing Reference High Resolution Signal B Intermittent/Erratic Pulses"
+    },
+    {
+      "code": "P0379",
+      "description": "Timing Reference High Resolution Signal B No Pulses"
+    },
+    {
+      "code": "P0380",
+      "description": "Glow Plug/Heater Circuit \"A\" Malfunction"
+    },
+    {
+      "code": "P0381",
+      "description": "Glow Plug/Heater Indicator Circuit Malfunction"
+    },
+    {
+      "code": "P0382",
+      "description": "Exhaust Gas Recirculation Flow Malfunction"
+    },
+    {
+      "code": "P0385",
+      "description": "Crankshaft Position Sensor B Circuit Malfunction"
+    },
+    {
+      "code": "P0386",
+      "description": "Crankshaft Position Sensor B Circuit Range/Performance"
+    },
+    {
+      "code": "P0387",
+      "description": "Crankshaft Position Sensor B Circuit Low Input"
+    },
+    {
+      "code": "P0388",
+      "description": "Crankshaft Position Sensor B Circuit High Input"
+    },
+    {
+      "code": "P0389",
+      "description": "Crankshaft Position Sensor B Circuit Intermittent"
+    },
+    {
+      "code": "P0400",
+      "description": "Exhaust Gas Recirculation Flow Malfunction"
+    },
+    {
+      "code": "P0401",
+      "description": "Exhaust Gas Recirculation Flow Insufficient Detected"
+    },
+    {
+      "code": "P0402",
+      "description": "Exhaust Gas Recirculation Flow Excessive Detected"
+    },
+    {
+      "code": "P0403",
+      "description": "Exhaust Gas Recirculation Circuit Malfunction"
+    },
+    {
+      "code": "P0404",
+      "description": "Exhaust Gas Recirculation Circuit Range/Performance"
+    },
+    {
+      "code": "P0405",
+      "description": "Exhaust Gas Recirculation Sensor A Circuit Low"
+    },
+    {
+      "code": "P0406",
+      "description": "Exhaust Gas Recirculation Sensor A Circuit High"
+    },
+    {
+      "code": "P0407",
+      "description": "Exhaust Gas Recirculation Sensor B Circuit Low"
+    },
+    {
+      "code": "P0408",
+      "description": "Exhaust Gas Recirculation Sensor B Circuit High"
+    },
+    {
+      "code": "P0410",
+      "description": "Secondary Air Injection System Malfunction"
+    },
+    {
+      "code": "P0411",
+      "description": "Secondary Air Injection System Incorrect Flow Detected"
+    },
+    {
+      "code": "P0412",
+      "description": "Secondary Air Injection System Switching Valve A Circuit Malfunction"
+    },
+    {
+      "code": "P0413",
+      "description": "Secondary Air Injection System Switching Valve A Circuit Open"
+    },
+    {
+      "code": "P0414",
+      "description": "Secondary Air Injection System Switching Valve A Circuit Shorted"
+    },
+    {
+      "code": "P0415",
+      "description": "Secondary Air Injection System Switching Valve B Circuit Malfunction"
+    },
+    {
+      "code": "P0416",
+      "description": "Secondary Air Injection System Switching Valve B Circuit Open"
+    },
+    {
+      "code": "P0417",
+      "description": "Secondary Air Injection System Switching Valve B Circuit Shorted"
+    },
+    {
+      "code": "P0418",
+      "description": "Secondary Air Injection System Relay ‘A\" Circuit Malfunction"
+    },
+    {
+      "code": "P0419",
+      "description": "Secondary Air Injection System Relay \"B’ Circuit Malfunction"
+    },
+    {
+      "code": "P0420",
+      "description": "Catalyst System Efficiency Below Threshold (Bank 1)"
+    },
+    {
+      "code": "P0421",
+      "description": "Warm Up Catalyst Efficiency Below Threshold (Bank 1)"
+    },
+    {
+      "code": "P0422",
+      "description": "Main Catalyst Efficiency Below Threshold (Bank 1)"
+    },
+    {
+      "code": "P0423",
+      "description": "Heated Catalyst Efficiency Below Threshold (Bank 1)"
+    },
+    {
+      "code": "P0424",
+      "description": "Heated Catalyst Temperature Below Threshold (Bank 1)"
+    },
+    {
+      "code": "P0430",
+      "description": "Catalyst System Efficiency Below Threshold (Bank 2)"
+    },
+    {
+      "code": "P0431",
+      "description": "Warm Up Catalyst Efficiency Below Threshold (Bank 2)"
+    },
+    {
+      "code": "P0432",
+      "description": "Main Catalyst Efficiency Below Threshold (Bank 2)"
+    },
+    {
+      "code": "P0433",
+      "description": "Heated Catalyst Efficiency Below Threshold (Bank 2)"
+    },
+    {
+      "code": "P0434",
+      "description": "Heated Catalyst Temperature Below Threshold (Bank 2)"
+    },
+    {
+      "code": "P0440",
+      "description": "Evaporative Emission Control System Malfunction"
+    },
+    {
+      "code": "P0441",
+      "description": "Evaporative Emission Control System Incorrect Purge Flow"
+    },
+    {
+      "code": "P0442",
+      "description": "Evaporative Emission Control System Leak Detected (small leak)"
+    },
+    {
+      "code": "P0443",
+      "description": "Evaporative Emission Control System Purge Control Valve Circuit"
+    },
+    {
+      "code": "P0444",
+      "description": "Evaporative Emission Control System Purge Control Valve Circuit"
+    },
+    {
+      "code": "P0445",
+      "description": "Evaporative Emission Control System Purge Control Valve Circuit Shorted"
+    },
+    {
+      "code": "P0446",
+      "description": "Evaporative Emission Control System Vent Control Circuit Malfunction"
+    },
+    {
+      "code": "P0447",
+      "description": "Evaporative Emission Control System Vent Control Circuit Open"
+    },
+    {
+      "code": "P0448",
+      "description": "Evaporative Emission Control System Vent Control Circuit Shorted"
+    },
+    {
+      "code": "P0449",
+      "description": "Evaporative Emission Control System Vent Valve/Solenoid Circuit Malfunction"
+    },
+    {
+      "code": "P0450",
+      "description": "Evaporative Emission Control System Pressure Sensor Malfunction"
+    },
+    {
+      "code": "P0451",
+      "description": "Evaporative Emission Control System Pressure Sensor Range/Performance"
+    },
+    {
+      "code": "P0452",
+      "description": "Evaporative Emission Control System Pressure Sensor Low Input"
+    },
+    {
+      "code": "P0453",
+      "description": "Evaporative Emission Control System Pressure Sensor High Input"
+    },
+    {
+      "code": "P0454",
+      "description": "Evaporative Emission Control System Pressure Sensor Intermittent"
+    },
+    {
+      "code": "P0455",
+      "description": "Evaporative Emission Control System Leak Detected (gross leak)"
+    },
+    {
+      "code": "P0460",
+      "description": "Fuel Level Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0461",
+      "description": "Fuel Level Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0462",
+      "description": "Fuel Level Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0463",
+      "description": "Fuel Level Sensor Circuit High Input"
+    },
+    {
+      "code": "P0464",
+      "description": "Fuel Level Sensor Circuit Intermittent"
+    },
+    {
+      "code": "P0465",
+      "description": "Purge Flow Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0466",
+      "description": "Purge Flow Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0467",
+      "description": "Purge Flow Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0468",
+      "description": "Purge Flow Sensor Circuit High Input"
+    },
+    {
+      "code": "P0469",
+      "description": "Purge Flow Sensor Circuit Intermittent"
+    },
+    {
+      "code": "P0470",
+      "description": "Exhaust Pressure Sensor Malfunction"
+    },
+    {
+      "code": "P0471",
+      "description": "Exhaust Pressure Sensor Range/Performance"
+    },
+    {
+      "code": "P0472",
+      "description": "Exhaust Pressure Sensor Low"
+    },
+    {
+      "code": "P0473",
+      "description": "Exhaust Pressure Sensor High"
+    },
+    {
+      "code": "P0474",
+      "description": "Exhaust Pressure Sensor Intermittent"
+    },
+    {
+      "code": "P0475",
+      "description": "Exhaust Pressure Control Valve Malfunction"
+    },
+    {
+      "code": "P0476",
+      "description": "Exhaust Pressure Control Valve Range/Performance"
+    },
+    {
+      "code": "P0477",
+      "description": "Exhaust Pressure Control Valve Low"
+    },
+    {
+      "code": "P0478",
+      "description": "Exhaust Pressure Control Valve High"
+    },
+    {
+      "code": "P0479",
+      "description": "Exhaust Pressure Control Valve Intermittent"
+    },
+    {
+      "code": "P0480",
+      "description": "Cooling Fan I Control Circuit Malfunction"
+    },
+    {
+      "code": "P0481",
+      "description": "Cooling Fan 2 Control Circuit Malfunction"
+    },
+    {
+      "code": "P0482",
+      "description": "Cooling Fan 3 Control Circuit Malfunction"
+    },
+    {
+      "code": "P0483",
+      "description": "Cooling Fan Rationality Check Malfunction"
+    },
+    {
+      "code": "P0484",
+      "description": "Cooling Fan Circuit Over Current"
+    },
+    {
+      "code": "P0485",
+      "description": "Cooling Fan Power/Ground Circuit Malfunction"
+    },
+    {
+      "code": "P0500",
+      "description": "Vehicle Speed Sensor Malfunction"
+    },
+    {
+      "code": "P0501",
+      "description": "Vehicle Speed Sensor Range/Performance"
+    },
+    {
+      "code": "P0502",
+      "description": "Vehicle Speed Sensor Low Input"
+    },
+    {
+      "code": "P0503",
+      "description": "Vehicle Speed Sensor Intermittent/Erratic/High"
+    },
+    {
+      "code": "P0505",
+      "description": "Idle Control System Malfunction"
+    },
+    {
+      "code": "P0506",
+      "description": "Idle Control System RPM Lower Than Expected"
+    },
+    {
+      "code": "P0507",
+      "description": "Idle Control System RPM Higher Than Expected"
+    },
+    {
+      "code": "P0510",
+      "description": "Closed Throttle Position Switch Malfunction"
+    },
+    {
+      "code": "P0520",
+      "description": "Engine Oil Pressure Sensor/Switch Circuit Malfunction"
+    },
+    {
+      "code": "P0521",
+      "description": "Engine Oil Pressure Sensor/Switch Circuit Range/Performance"
+    },
+    {
+      "code": "P0522",
+      "description": "Engine Oil Pressure Sensor/Switch Circuit Low Voltage"
+    },
+    {
+      "code": "P0523",
+      "description": "Engine Oil Pressure Sensor/Switch Circuit High Voltage"
+    },
+    {
+      "code": "P0530",
+      "description": "A/C Refrigerant Pressure Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0531",
+      "description": "A/C Refrigerant Pressure Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0532",
+      "description": "A/C Refrigerant Pressure Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0533",
+      "description": "A/C Refrigerant Pressure Sensor Circuit High Input"
+    },
+    {
+      "code": "P0534",
+      "description": "Air Conditioner Refrigerant Charge Loss"
+    },
+    {
+      "code": "P0550",
+      "description": "Power Steering Pressure Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0551",
+      "description": "Power Steering Pressure Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0552",
+      "description": "Power Steering Pressure Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0553",
+      "description": "Power Steering Pressure Sensor Circuit High Input"
+    },
+    {
+      "code": "P0554",
+      "description": "Power Steering Pressure Sensor Circuit Intermittent"
+    },
+    {
+      "code": "P0560",
+      "description": "System Voltage Malfunction"
+    },
+    {
+      "code": "P0561",
+      "description": "System Voltage Unstable"
+    },
+    {
+      "code": "P0562",
+      "description": "System Voltage Low"
+    },
+    {
+      "code": "P0563",
+      "description": "System Voltage High"
+    },
+    {
+      "code": "P0565",
+      "description": "Cruise Control On Signal Malfunction"
+    },
+    {
+      "code": "P0566",
+      "description": "Cruise Control Off Signal Malfunction"
+    },
+    {
+      "code": "P0567",
+      "description": "Cruise Control Resume Signal Malfunction"
+    },
+    {
+      "code": "P0568",
+      "description": "Cruise Control Set Signal Malfunction"
+    },
+    {
+      "code": "P0569",
+      "description": "Cruise Control Coast Signal Malfunction"
+    },
+    {
+      "code": "P0570",
+      "description": "Cruise Control Accel Signal Malfunction"
+    },
+    {
+      "code": "P0571",
+      "description": "Cruise Control/Brake Switch A Circuit Malfunction"
+    },
+    {
+      "code": "P0572",
+      "description": "Cruise Control/Brake Switch A Circuit Low"
+    },
+    {
+      "code": "P0573",
+      "description": "Cruise Control/Brake Switch A Circuit High"
+    },
+    {
+      "code": "P0574",
+      "description": "Cruise Control Related Malfunction"
+    },
+    {
+      "code": "P0575",
+      "description": "Cruise Control Related Malfunction"
+    },
+    {
+      "code": "P0576",
+      "description": "Cruise Control Related Malfunction"
+    },
+    {
+      "code": "P0577",
+      "description": "Cruise Control Related Malfunction"
+    },
+    {
+      "code": "P0578",
+      "description": "Cruise Control Related Malfunction"
+    },
+    {
+      "code": "P0579",
+      "description": "Cruise Control Related Malfunction"
+    },
+    {
+      "code": "P0580",
+      "description": "Cruise Control Related Malfunction"
+    },
+    {
+      "code": "P0600",
+      "description": "Serial Communication Link Malfunction"
+    },
+    {
+      "code": "P0601",
+      "description": "Internal Control Module Memory Check Sum Error"
+    },
+    {
+      "code": "P0602",
+      "description": "Control Module Programming Error"
+    },
+    {
+      "code": "P0603",
+      "description": "Internal Control Module Keep Alive Memory (KAM) Error"
+    },
+    {
+      "code": "P0604",
+      "description": "Internal Control Module Random Access Memory (RAM) Error"
+    },
+    {
+      "code": "P0605",
+      "description": "Internal Control Module Read Only Memory (ROM) Error"
+    },
+    {
+      "code": "P0606",
+      "description": "PCM Processor Fault"
+    },
+    {
+      "code": "P0608",
+      "description": "Control Module VSS Output \"A’ Malfunction"
+    },
+    {
+      "code": "P0609",
+      "description": "Control Module VSS Output \"B\" Malfunction"
+    },
+    {
+      "code": "P0620",
+      "description": "Generator Control Circuit Malfunction"
+    },
+    {
+      "code": "P0621",
+      "description": "Generator Lamp \"L\" Control Circuit Malfunction"
+    },
+    {
+      "code": "P0622",
+      "description": "Generator Field \"F\" Control Circuit Malfunction"
+    },
+    {
+      "code": "P0650",
+      "description": "Malfunction Indicator Lamp (MIL) Control Circuit Malfunction"
+    },
+    {
+      "code": "P0654",
+      "description": "Engine RPM Output Circuit Malfunction"
+    },
+    {
+      "code": "P0655",
+      "description": "Engine Hot Lamp Output Control Circuit Malfunction"
+    },
+    {
+      "code": "P0656",
+      "description": "Fuel Level Output Circuit Malfunction"
+    },
+    {
+      "code": "P0700",
+      "description": "Transmission Control System Malfunction"
+    },
+    {
+      "code": "P0701",
+      "description": "Transmission Control System Range/Performance"
+    },
+    {
+      "code": "P0702",
+      "description": "Transmission Control System Electrical"
+    },
+    {
+      "code": "P0703",
+      "description": "Torque Converter/Brake Switch B Circuit Malfunction"
+    },
+    {
+      "code": "P0704",
+      "description": "Clutch Switch Input Circuit Malfunction"
+    },
+    {
+      "code": "P0705",
+      "description": "Transmission Range Sensor Circuit malfunction (PRNDL Input)"
+    },
+    {
+      "code": "P0706",
+      "description": "Transmission Range Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0707",
+      "description": "Transmission Range Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0708",
+      "description": "Transmission Range Sensor Circuit High Input"
+    },
+    {
+      "code": "P0709",
+      "description": "Transmission Range Sensor Circuit Intermittent"
+    },
+    {
+      "code": "P0710",
+      "description": "Transmission Fluid Temperature Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0711",
+      "description": "Transmission Fluid Temperature Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0712",
+      "description": "Transmission Fluid Temperature Sensor Circuit Low Input"
+    },
+    {
+      "code": "P0713",
+      "description": "Transmission Fluid Temperature Sensor Circuit High Input"
+    },
+    {
+      "code": "P0714",
+      "description": "Transmission Fluid Temperature Sensor Circuit Intermittent"
+    },
+    {
+      "code": "P0715",
+      "description": "Input/Turbine Speed Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0716",
+      "description": "Input/Turbine Speed Sensor Circuit Range/Performance"
+    },
+    {
+      "code": "P0717",
+      "description": "Input/Turbine Speed Sensor Circuit No Signal"
+    },
+    {
+      "code": "P0718",
+      "description": "Input/Turbine Speed Sensor Circuit Intermittent"
+    },
+    {
+      "code": "P0719",
+      "description": "Torque Converter/Brake Switch B Circuit Low"
+    },
+    {
+      "code": "P0720",
+      "description": "Output Speed Sensor Circuit Malfunction"
+    },
+    {
+      "code": "P0721",
+      "description": "Output Speed Sensor Range/Performance"
+    },
+    {
+      "code": "P0722",
+      "description": "Output Speed Sensor No Signal"
+    },
+    {
+      "code": "P0723",
+      "description": "Output Speed Sensor Intermittent"
+    },
+    {
+      "code": "P0724",
+      "description": "Torque Converter/Brake Switch B Circuit High"
+    },
+    {
+      "code": "P0725",
+      "description": "Engine Speed input Circuit Malfunction"
+    },
+    {
+      "code": "P0726",
+      "description": "Engine Speed Input Circuit Range/Performance"
+    },
+    {
+      "code": "P0727",
+      "description": "Engine Speed Input Circuit No Signal"
+    },
+    {
+      "code": "P0728",
+      "description": "Engine Speed Input Circuit Intermittent"
+    },
+    {
+      "code": "P0730",
+      "description": "Incorrect Gear Ratio"
+    },
+    {
+      "code": "P0731",
+      "description": "Gear I Incorrect ratio"
+    },
+    {
+      "code": "P0732",
+      "description": "Gear 2 Incorrect ratio"
+    },
+    {
+      "code": "P0733",
+      "description": "Gear 3 Incorrect ratio"
+    },
+    {
+      "code": "P0734",
+      "description": "Gear 4 Incorrect ratio"
+    },
+    {
+      "code": "P0735",
+      "description": "Gear 5 Incorrect ratio"
+    },
+    {
+      "code": "P0736",
+      "description": "Reverse incorrect gear ratio"
+    },
+    {
+      "code": "P0740",
+      "description": "Torque Converter Clutch Circuit Malfunction"
+    },
+    {
+      "code": "P0741",
+      "description": "Torque Converter Clutch Circuit Performance or Stuck Off"
+    },
+    {
+      "code": "P0742",
+      "description": "Torque Converter Clutch Circuit Stock On"
+    },
+    {
+      "code": "P0743",
+      "description": "Torque Converter Clutch Circuit Electrical"
+    },
+    {
+      "code": "P0744",
+      "description": "Torque Converter Clutch Circuit Intermittent"
+    },
+    {
+      "code": "P0745",
+      "description": "Pressure Control Solenoid Malfunction"
+    },
+    {
+      "code": "P0746",
+      "description": "Pressure Control Solenoid Performance or Stuck Off"
+    },
+    {
+      "code": "P0747",
+      "description": "Pressure Control Solenoid Stuck On"
+    },
+    {
+      "code": "P0748",
+      "description": "Pressure Control Solenoid Electrical"
+    },
+    {
+      "code": "P0749",
+      "description": "Pressure Control Solenoid Intermittent"
+    },
+    {
+      "code": "P0750",
+      "description": "Shift Solenoid A Malfunction"
+    },
+    {
+      "code": "P0751",
+      "description": "Shift Solenoid A Performance or Stuck Off"
+    },
+    {
+      "code": "P0752",
+      "description": "Shift Solenoid A Stuck OnP0753 Shift Solenoid A Electrical"
+    },
+    {
+      "code": "P0754",
+      "description": "Shift Solenoid A Intermittent"
+    },
+    {
+      "code": "P0755",
+      "description": "Shift Solenoid B Malfunction"
+    },
+    {
+      "code": "P0756",
+      "description": "Shift Solenoid B Performance or Stock Off"
+    },
+    {
+      "code": "P0757",
+      "description": "Shift Solenoid B Stuck On"
+    },
+    {
+      "code": "P0758",
+      "description": "Shift Solenoid B Electrical"
+    },
+    {
+      "code": "P0759",
+      "description": "Shift Solenoid B Intermittent"
+    },
+    {
+      "code": "P0760",
+      "description": "Shift Solenoid C Malfunction"
+    },
+    {
+      "code": "P0761",
+      "description": "Shift Solenoid C Performance or Stuck Off"
+    },
+    {
+      "code": "P0762",
+      "description": "Shift Solenoid C Stuck On"
+    },
+    {
+      "code": "P0763",
+      "description": "Shift Solenoid C Electrical"
+    },
+    {
+      "code": "P0764",
+      "description": "Shift Solenoid C Intermittent"
+    },
+    {
+      "code": "P0765",
+      "description": "Shift Solenoid D Malfunction"
+    },
+    {
+      "code": "P0766",
+      "description": "Shift Solenoid D Performance or Stuck Off"
+    },
+    {
+      "code": "P0767",
+      "description": "Shift Solenoid D Stuck On"
+    },
+    {
+      "code": "P0768",
+      "description": "Shift Solenoid D Electrical"
+    },
+    {
+      "code": "P0769",
+      "description": "Shift Solenoid D Intermittent"
+    },
+    {
+      "code": "P0770",
+      "description": "Shift Solenoid E Malfunction"
+    },
+    {
+      "code": "P0771",
+      "description": "Shift Solenoid E Performance or Stuck Off"
+    },
+    {
+      "code": "P0772",
+      "description": "Shift Solenoid E Stuck On"
+    },
+    {
+      "code": "P0773",
+      "description": "Shift Solenoid E Electrical"
+    },
+    {
+      "code": "P0774",
+      "description": "Shift Solenoid E Intermittent"
+    },
+    {
+      "code": "P0780",
+      "description": "Shift Malfunction"
+    },
+    {
+      "code": "P0781",
+      "description": "1-2 Shift Malfunction"
+    },
+    {
+      "code": "P0782",
+      "description": "2-3 Shift Malfunction"
+    },
+    {
+      "code": "P0783",
+      "description": "3-4 Shift Malfunction"
+    },
+    {
+      "code": "P0784",
+      "description": "4-5 Shift Malfunction"
+    },
+    {
+      "code": "P0785",
+      "description": "Shift/Timing Solenoid Malfunction"
+    },
+    {
+      "code": "P0786",
+      "description": "Shift/Timing Solenoid Range/Performance"
+    },
+    {
+      "code": "P0787",
+      "description": "Shift/Timing Solenoid Low"
+    },
+    {
+      "code": "P0788",
+      "description": "Shift/Timing Solenoid High"
+    },
+    {
+      "code": "P0789",
+      "description": "Shift/Timing Solenoid Intermittent"
+    },
+    {
+      "code": "P0790",
+      "description": "Normal/Performance Switch Circuit Malfunction"
+    },
+    {
+      "code": "P0801",
+      "description": "Reverse Inhibit Control Circuit Malfunction"
+    },
+    {
+      "code": "P0803",
+      "description": "1-4 Upshift (Skip Shift) Solenoid Control Circuit Malfunction"
+    },
+    {
+      "code": "P0804",
+      "description": "1-4 Upshift (Skip Shift) Lamp Control Circuit Malfunction"
+    }
+  ],
+  "corrections": [
+    {
+      "original_code": "P0109",
+      "corrected_code": "P0110",
+      "description": "Intake Air Temperature Circuit Malfunction",
+      "reason": "Second 'P0109' in the source list; P0110 was missing from the P0109 -> P0111 sequence and is the SAE J2012 code for this description."
+    },
+    {
+      "original_code": "P0576",
+      "corrected_code": "P0577",
+      "description": "Cruise Control Related Malfunction",
+      "reason": "Exact duplicate of P0576 in the source list; P0577 was missing from the P0575 -> P0578 sequence."
+    }
+  ]
+}
